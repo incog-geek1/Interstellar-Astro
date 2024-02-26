@@ -28,6 +28,7 @@ To install:
 ```bash
 pnpm i
 ```
+
 If that does not work, try running `npm i -g pnpm` and try again.
 
 To start the development server run:
