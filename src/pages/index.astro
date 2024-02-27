@@ -1,7 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-
-let splashtext: string[] = [
+const splashtext: string[] = [
   "Over 7 Million Users in 2023!",
   "Fastest growing proxy server!",
   "Made by Bubbo!",
@@ -12,7 +11,7 @@ const splash: string =
   splashtext[Math.floor(Math.random() * splashtext.length)];
 ---
 
-<Layout title="Classes">
+<Layout>
   <h1 class="title">Interstellar</h1>
   <p id="splash">{splash}</p>
   <div class="search-container">
@@ -25,7 +24,4 @@ const splash: string =
       />
     </form>
   </div>
-  <!--- <div class="sug">
-    <div class="sugelement" onclick="blank('https://google.com/')">Google</div></a><div class="sugelement" onclick="blank('https://youtube.com/')">Youtube</div></a> <div class="sugelement" onclick="blank('https://play.geforcenow.com')">GeForce</div></a> <div onclick="blank('https://now.gg/play/roblox-corporation/5349/roblox')" class="sugelement">Roblox</div>
-  </div> --->
 </Layout>

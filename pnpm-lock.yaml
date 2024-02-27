@@ -35,6 +35,9 @@ dependencies:
   express:
     specifier: ^4.18.2
     version: 4.18.2
+  express-basic-auth:
+    specifier: ^1.2.1
+    version: 1.2.1
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
@@ -2072,6 +2075,16 @@ packages:
       }
     dev: false
 
+  /basic-auth@2.0.1:
+    resolution:
+      {
+        integrity: sha512-NF+epuEdnUYVlGuhaxbbq+dvJttwLnGY+YixlXlME5KpQ5W3CnXA5cVTneY3SPbPDRkcjMbifrwmFYcClgOZeg==,
+      }
+    engines: { node: ">= 0.8" }
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+
   /binary-extensions@2.2.0:
     resolution:
       {
@@ -3181,6 +3194,15 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /express-basic-auth@1.2.1:
+    resolution:
+      {
+        integrity: sha512-L6YQ1wQ/mNjVLAmK3AG1RK6VkokA1BIY6wmiH304Xtt/cLTps40EusZsU1Uop+v9lTDPxdtzbFmdXfFO3KEnwA==,
+      }
+    dependencies:
+      basic-auth: 2.0.1
+    dev: false
 
   /express@4.18.2:
     resolution:
@@ -5828,6 +5850,13 @@ packages:
       }
     dependencies:
       tslib: 2.6.2
+    dev: false
+
+  /safe-buffer@5.1.2:
+    resolution:
+      {
+        integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==,
+      }
     dev: false
 
   /safe-buffer@5.2.1:

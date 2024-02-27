@@ -11,17 +11,19 @@ const { title } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" id="tab-favicon" href="favicon.png" />
-    <link rel="stylesheet" href="/themes/default.css?v=4" />
+    <link rel="stylesheet" href="/themes/default.css" />
     <meta name="generator" content={Astro.generator} />
     <script
       src="https://kit.fontawesome.com/1237c86ba0.js"
       crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"
+    ></script>
     <script src="/m/bundle.js" is:inline></script>
     <script src="/m/config.js" is:inline></script>
+    <script
+      src="https://kit.fontawesome.com/1237c86ba0.js"
+      crossorigin="anonymous"></script>
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
@@ -48,17 +50,17 @@ const { title } = Astro.props;
         >
       </div>
       <div class="fixed-nav-bar-right">
-        <a class="navbar-link" href="/./-"
-          ><i class="material-symbols-outlined">sports_esports</i>Games</a
+        <a class="navbar-link" href="/games"
+          ><i class="fa-solid fa-gamepad navbar-icon"></i>Games</a
         >
-        <a class="navbar-link" href="/./~"
-          ><i class="material-symbols-outlined">apps</i>Apps</a
+        <a class="navbar-link" href="/apps"
+          ><i class="fa-solid fa-phone navbar-icon"></i>Apps</a
         >
-        <a class="navbar-link" href="/./0"
-          ><i class="material-symbols-outlined">tabs</i>Tabs</a
+        <a class="navbar-link" href="/tabs"
+          ><i class="fa-solid fa-laptop navbar-icon"></i>Tabs</a
         >
-        <a class="navbar-link" href="/./!"
-          ><i class="material-symbols-outlined">settings</i>Settings</a
+        <a class="navbar-link" href="/settings"
+          ><i class="fa-solid fa-gear navbar-icon settings-icon"></i>Settings</a
         >
       </div>
     </div>

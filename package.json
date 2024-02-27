@@ -1,5 +1,5 @@
 {
-  "name": "interstellar",
+  "name": "edu",
   "type": "module",
   "version": "5.2",
   "scripts": {
@@ -23,6 +23,7 @@
     "concurrently": "^8.2.2",
     "eslint-plugin-astro": "^0.31.4",
     "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
     "prettier": "^3.2.5",
     "tsx": "^4.7.1",
     "typescript": "^5.3.3"
